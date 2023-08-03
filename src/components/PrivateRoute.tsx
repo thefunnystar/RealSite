@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import PropTypes from 'prop-types';
+// @ts-ignore
 import { useRouter } from 'next/router';
 
 interface PrivateRouteProps {

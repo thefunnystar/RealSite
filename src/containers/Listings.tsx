@@ -1,8 +1,13 @@
 import { useState, useEffect } from 'react';
+// @ts-ignore
 import Head from 'next/head';
+// @ts-ignore
 import axios from 'axios';
+// @ts-ignore
 import { useRouter } from 'next/router';
+// @ts-ignore
 import Link from 'next/link';
+// @ts-ignore
 import Image from "next/image";
 
 interface Listing {
